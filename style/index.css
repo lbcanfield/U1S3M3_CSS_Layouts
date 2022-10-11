@@ -47,3 +47,48 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+*
+{
+	box-sizing:border-box;
+	margin:0px;
+	border:1px solid blue;
+	max-width:100%;
+}
+
+/* General Webpage Styles */
+html
+{
+	font-size:62.5%;	/*used to make the default font size 10px*/
+	font-family: 'Kalam', cursive;
+}
+header
+{
+	padding: 2% 1%;
+	background-color:#FFBDBF;
+}
+h1
+{
+	font-size:5rem;
+}nav
+{
+	margin-left:1%;
+}
+
+.button
+{
+	background: white;
+	border:2px solid black;
+	color: black;
+	width:100px;
+	text-align:center;
+	padding:10px 0;
+	font-size:2rem;
+	text-decoration: none;
+}
+.button_container
+{
+	display:flex;
+	flex-direction: row;
+}
+
